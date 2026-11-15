@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pezhman Piramoun — Senior .NET Developer | Legacy Modernization, Data Integration &amp; SaaS</title>
+  <meta name="description" content="Pezhman Piramoun is a Toronto-based senior .NET developer with 15+ years of experience modernizing enterprise applications and building data integrations for fintech, healthcare and regulated B2B teams.">
+  <meta name="author" content="Pezhman Piramoun">
+  <link rel="canonical" href="https://piramoun.info/">
+  <meta name="theme-color" content="#F6F7FA" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B1020" media="(prefers-color-scheme: dark)">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Pezhman Piramoun">
+  <meta property="og:title" content="Pezhman Piramoun — Senior .NET Developer">
+  <meta property="og:description" content="Blazor web apps, ASP.NET Core REST APIs and legacy .NET modernization for fintech, healthcare and regulated B2B teams. 15+ years of enterprise .NET.">
+  <meta property="og:url" content="https://piramoun.info/">
+  <meta property="og:image" content="https://piramoun.info/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pezhman Piramoun, Senior .NET Developer">
+  <meta property="og:locale" content="en_CA">
+  <meta property="profile:first_name" content="Pezhman">
+  <meta property="profile:last_name" content="Piramoun">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pezhman Piramoun — Senior .NET Developer">
+  <meta name="twitter:description" content="Blazor web apps, ASP.NET Core REST APIs and legacy .NET modernization for fintech, healthcare and regulated B2B teams.">
+  <meta name="twitter:image" content="https://piramoun.info/assets/img/og-image.jpg">
+
+  <!-- Icons -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Theme set before paint to avoid a flash -->
+  <script>
+    (function () {
+      var d = document.documentElement, t = null;
+      d.classList.add('js');
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      d.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/img/hero-800.webp" imagesrcset="assets/img/hero-480.webp 480w, assets/img/hero-800.webp 800w" imagesizes="(min-width: 860px) 380px, 340px" type="image/webp">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pezhman Piramoun",
+    "jobTitle": "Senior .NET Developer",
+    "description": ".NET software developer specializing in application modernization and data integration for fintech, healthcare and regulated B2B environments.",
+    "url": "https://piramoun.info/",
+    "image": "https://piramoun.info/assets/img/hero-800.jpg",
+    "email": "mailto:piramoun@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Toronto", "addressRegion": "ON", "addressCountry": "CA" },
+    "sameAs": [
+      "https://www.linkedin.com/in/pezhman-piramoun",
+      "https://github.com/Piramoun"
+    ],
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Islamic Azad University" },
+      { "@type": "CollegeOrUniversity", "name": "University of Tehran" }
+    ],
+    "knowsAbout": ["C#", ".NET", "ASP.NET Core", "Blazor", "WPF", "Entity Framework Core", "SQL Server", "T-SQL", "Application modernization", "Data mapping", "Data integration", "Liquid / Scriban", "Altova MapForce", "MassTransit", "Hangfire", "OAuth2", "OpenID Connect", "Azure DevOps", "ISO 15189", "Laboratory quality control", "Westgard rules", "Sigma metrics", "SaaS"]
+  }
+  </script>
+</head>
+<body>
+  <!-- Icon sprite (Feather icons, MIT) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="#top" aria-label="Pezhman Piramoun, home">Pezhman <span>Piramoun</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" type="button" aria-label="Switch color theme">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top" aria-labelledby="hero-name">
+      <div class="container hero-grid">
+        <div class="hero-photo reveal">
+          <picture>
+            <source type="image/webp" srcset="assets/img/hero-480.webp 480w, assets/img/hero-800.webp 800w" sizes="(min-width: 860px) 380px, 340px">
+            <img src="assets/img/hero-800.jpg" width="800" height="800" alt="Portrait of Pezhman Piramoun in a dark suit and tie" fetchpriority="high" decoding="async">
+          </picture>
+        </div>
+        <div class="hero-copy reveal">
+          <h1 id="hero-name">Pezhman Piramoun</h1>
+          <p class="hero-title">Senior .NET Developer — Legacy Modernization, Data Integration &amp; SaaS</p>
+          <p class="hero-lead">I build modern web applications with Blazor and ASP.NET Core REST APIs, and modernize legacy .NET and WPF systems into clean, testable, maintainable software for fintech, healthcare and regulated B2B teams.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="resume.html">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-file"/></svg> View résumé
+            </a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+          <ul class="hero-meta">
+            <li><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Toronto, ON</li>
+            <li><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-brief"/></svg> 15+ years in enterprise .NET</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section-alt" id="about" aria-labelledby="about-title">
+      <div class="container about-wrap">
+        <div class="about-text reveal">
+          <h2 id="about-title" class="about-heading">About me</h2>
+          <p>I'm a senior .NET developer with more than 15 years of experience building and modernizing enterprise applications in fintech, healthcare, pharmaceutical and food manufacturing, and regulated B2B environments.</p>
+          <p>Today I'm moving a legacy WPF application to Blazor and ASP.NET Core REST APIs for a Canadian financial services company. I specialize in the data side of modernization: data dictionaries, source-to-target mapping, Liquid (Scriban) templating and XML/JSON ingestion into SQL Server.</p>
+          <p>I'm known as a strong debugger who finds the root cause of complex production issues fast. I also use AI-assisted tools such as GitHub Copilot for code review, refactoring and SQL optimization.</p>
+          <p>I also led development of <a href="https://qcplot.com" target="_blank" rel="noopener">QcPlot</a>, an internal quality control platform for medical laboratories.</p>
+          <ul class="facts">
+            <li class="fact"><strong>15+ years</strong><span>Building enterprise .NET applications</span></li>
+            <li class="fact"><strong>Fintech</strong><span>Mortgage lending, financial services</span></li>
+            <li class="fact"><strong>Healthcare</strong><span>Medical laboratory systems (ISO 15189 / CLSI)</span></li>
+            <li class="fact"><strong>Pharma &amp; Food</strong><span>Production-line track and trace, real-time barcode validation</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="exp-title">Experience</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="tl-item is-current reveal">
+            <span class="tl-date">Aug 2025 – Present</span>
+            <h3>Application Developer (.NET)</h3>
+            <p class="tl-org">First National Financial LP · Toronto, ON · Hybrid, contract</p>
+            <ul>
+              <li>Modernizing a legacy WPF desktop app into a Blazor front end backed by ASP.NET Core REST APIs, with business logic refactored into testable C# services.</li>
+              <li>Build and maintain the data dictionary and source-to-target mappings that drive data transformation between the legacy and modern systems.</li>
+              <li>Build XML/JSON transformation workflows with Scriban and Altova MapForce, and run asynchronous B2B integrations on MassTransit and Hangfire.</li>
+            </ul>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-date">Aug 2024 – Jul 2025</span>
+            <h3>Lead Developer</h3>
+            <p class="tl-org"><a href="https://qcplot.com" target="_blank" rel="noopener">QcPlot</a> · Internal QC SaaS for medical labs</p>
+            <ul>
+              <li>Designed and built a multi-tenant, 11-language SaaS for internal quality control: Levey-Jennings charts, Westgard multirules, Sigma metrics, alarms and PDF reports.</li>
+              <li>Built the QC engine as a separate application layer covered by 976 automated tests, on .NET, Blazor, EF Core and SQL Server.</li>
+              <li>Shipped subscription plans with PayPal payments, AI-assisted interpretation of QC results on anonymized data, and the brand and marketing site.</li>
+            </ul>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-date">Oct 2024 – Jul 2025</span>
+            <h3>.NET Full-Stack Developer</h3>
+            <p class="tl-org"><a href="https://iqmslab.ir" target="_blank" rel="noopener">IQMSLab</a> · Multi-tenant quality management system for medical labs</p>
+            <ul>
+              <li>Architected a multi-tenant SaaS quality management platform for medical and industrial diagnostic labs, built for ISO 15189 and CLSI compliance.</li>
+              <li>Implemented tenant-isolated authentication and authorization with OAuth2 / OpenID Connect.</li>
+              <li>Delivered modular ASP.NET Core APIs and interactive Blazor dashboards that made lab reporting faster and data easier to see.</li>
+            </ul>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-date">Sep 2023 – Sep 2024</span>
+            <h3>Data Solutions Engineer</h3>
+            <p class="tl-org">ColifeLabs · Tehran · Part-time</p>
+            <ul>
+              <li>Refactored master-data and BOM processing engines in C# and SQL Server for medical laboratory environments.</li>
+              <li>Improved tracking accuracy and resource management.</li>
+            </ul>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-date">Mar 2021 – Aug 2023</span>
+            <h3>.NET Full-Stack Developer</h3>
+            <p class="tl-org">Piramoun, medical devices online marketplace · Tehran · Contract</p>
+            <ul>
+              <li>Built a B2B online platform with ASP.NET MVC and REST APIs.</li>
+              <li>Integrated a secure payment gateway, role-based security and automated notifications.</li>
+            </ul>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-date">Sep 2008 – Dec 2020</span>
+            <h3>.NET Full-Stack Developer</h3>
+            <p class="tl-org">Supishi Co. · Tehran · Freelance, part-time</p>
+            <ul>
+              <li>Built real-time C# / WPF track-and-trace software for pharmaceutical and food production lines, validating printed barcodes in a fraction of a second.</li>
+              <li>Inspected up to 10 products per second, automatically rejecting items with unreadable or duplicate barcodes from the line.</li>
+              <li>Deployed and evolved the platform in 100+ factories over 12 years, tuning SQL Server procedures and triggers for high-concurrency workloads.</li>
+            </ul>
+          </li>
+        </ol>
+
+        <div class="tl-earlier reveal">
+          <h3>Earlier experience</h3>
+          <ul>
+            <li><strong>Technical Product &amp; .NET Specialist</strong>, FardavarAzma Iranian<span>Supported medical lab instrument software, built C# / SQL Server data utilities and turned clinical requirements into software specs.</span></li>
+            <li><strong>Full-Stack Windows Application Developer / Technical Support</strong>, Nima Pouyesh Teb<span>Built Windows image-analysis software for lab electrophoresis, densitometer and scanner devices, with device integration, technical support and user training for clinical teams.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="skills-title">Technical skills</h2>
+        </header>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>Core stack</h3>
+            <ul class="tags"><li>C#</li><li>.NET Core</li><li>ASP.NET Core</li><li>Blazor Server / WASM</li><li>WPF</li><li>EF Core</li><li>MudBlazor</li><li>SQL Server</li><li>T-SQL</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Modernization</h3>
+            <ul class="tags"><li>WPF → Blazor migration</li><li>Legacy refactoring</li><li>REST API design</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Data transformation</h3>
+            <ul class="tags"><li>Data dictionary</li><li>Data mapping</li><li>Liquid (Scriban)</li><li>Altova MapForce</li><li>XML/JSON → SQL Server</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Integration &amp; messaging</h3>
+            <ul class="tags"><li>MassTransit</li><li>Hangfire</li><li>Async B2B data exchange</li><li>PayPal</li><li>SendGrid</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Security &amp; SaaS</h3>
+            <ul class="tags"><li>OAuth2</li><li>OpenID Connect</li><li>ASP.NET Core Identity</li><li>Multi-tenant auth</li><li>Subscriptions &amp; feature gating</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>DevOps, quality &amp; debugging</h3>
+            <ul class="tags"><li>Azure DevOps CI/CD</li><li>Git</li><li>xUnit / NUnit</li><li>Code reviews</li><li>Root-cause analysis</li><li>SQL performance</li><li>IIS deployment</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Product &amp; AI-assisted development</h3>
+            <ul class="tags"><li>Localization (11 languages, RTL)</li><li>QuestPDF reports</li><li>AI result interpretation</li><li>Claude Code</li><li>GitHub Copilot</li><li>Automated browser testing</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Domains</h3>
+            <ul class="tags"><li>Fintech · mortgage lending</li><li>Medical labs · ISO 15189 / CLSI</li><li>Lab QC · Westgard, Sigma metrics</li><li>Pharma &amp; food · track and trace (100+ factories)</li><li>Master data &amp; BOM</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Selected work ===== -->
+    <section id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="work-title">Selected projects</h2>
+          <p>Platforms and systems I have designed and built.</p>
+        </header>
+        <div class="projects-grid">
+          <article class="project project-featured reveal">
+            <div class="pf-main">
+              <span class="badge">Featured</span>
+              <span class="project-context">QcPlot · 2024 – 2025</span>
+              <h3>QcPlot: internal QC and method evaluation platform for medical labs</h3>
+              <p>A multi-tenant SaaS I designed and built end to end, with one tenant per laboratory. Labs track internal quality control with Levey-Jennings charts, Westgard multirules and Sigma metrics. They get alarms, localized PDF reports and AI-assisted interpretation, and subscribe through Free, Standard and Advanced plans. CLSI-based method evaluation and external quality assessment are on the roadmap.</p>
+              <a class="project-link" href="https://qcplot.com" target="_blank" rel="noopener">Visit qcplot.com <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </div>
+            <div class="pf-side">
+              <ul class="highlights">
+                <li>QC engine with Westgard rules, Sigma metrics, SQC plan recommendation and alarms, covered by 976 automated tests</li>
+                <li>Custom SVG Levey-Jennings chart with SD lines, event windows and a full edit, reject and comment audit log</li>
+                <li>11 languages including RTL Persian and Arabic, with Shamsi, Hijri and Gregorian calendars in the UI and PDFs</li>
+                <li>PayPal subscriptions with feature gating, a SuperAdmin panel and SendGrid email with SPF, DKIM and DMARC</li>
+              </ul>
+              <ul class="tags"><li>.NET</li><li>Blazor</li><li>MudBlazor</li><li>EF Core</li><li>SQL Server</li><li>ASP.NET Core Identity</li><li>QuestPDF</li><li>PayPal</li><li>AI integration</li></ul>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <span class="project-context">IQMSLab · 2024 – 2025</span>
+            <h3>Multi-tenant quality management SaaS</h3>
+            <p>Architected a quality management platform for medical and industrial diagnostic labs, built for ISO 15189 and CLSI compliance, with tenant isolation through OAuth2 / OpenID Connect and Blazor dashboards for faster reporting.</p>
+            <ul class="tags"><li>ASP.NET Core</li><li>Blazor</li><li>OAuth2 / OIDC</li><li>Multi-tenant</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <span class="project-context">First National Financial · 2025 –</span>
+            <h3>WPF to Blazor modernization</h3>
+            <p>Moving a legacy desktop app to a Blazor front end on ASP.NET Core REST APIs, with business logic refactored into tested C# services and shipped through Azure DevOps CI/CD.</p>
+            <ul class="tags"><li>Blazor</li><li>ASP.NET Core</li><li>xUnit</li><li>Azure DevOps</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <span class="project-context">First National Financial · 2025 –</span>
+            <h3>XML/JSON data transformation pipeline</h3>
+            <p>Data dictionary and source-to-target mappings driving Scriban and MapForce transformations, with payloads loaded into SQL Server and exchanged asynchronously with partner systems.</p>
+            <ul class="tags"><li>Scriban</li><li>MapForce</li><li>SQL Server</li><li>MassTransit</li><li>Hangfire</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <span class="project-context">Piramoun marketplace · 2021 – 2023</span>
+            <h3>B2B medical devices marketplace</h3>
+            <p>An online B2B platform for medical devices, with secure payment gateway integration, role-based security and automated notifications.</p>
+            <ul class="tags"><li>ASP.NET MVC</li><li>REST APIs</li><li>Payments</li><li>RBAC</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <span class="project-context">ColifeLabs · 2023 – 2024</span>
+            <h3>Master-data &amp; BOM processing engine</h3>
+            <p>Refactored the engines that process master data and bills of materials for medical laboratories, improving tracking accuracy and resource management.</p>
+            <ul class="tags"><li>C#</li><li>SQL Server</li><li>Master data</li></ul>
+          </article>
+
+          <article class="project reveal">
+            <span class="project-context">Supishi Co. · 2008 – 2020</span>
+            <h3>Real-time barcode validation for pharma &amp; food lines</h3>
+            <p>A WPF track-and-trace system that checked printed barcodes on production lines in a fraction of a second, inspecting up to 10 products per second and rejecting unreadable or duplicate codes. Deployed in 100+ factories over 12 years.</p>
+            <ul class="tags"><li>C#</li><li>WPF</li><li>SQL Server</li><li>Real-time</li><li>Track &amp; trace</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section-alt" id="education" aria-labelledby="edu-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="edu-title">Education</h2>
+        </header>
+        <div class="edu-grid">
+          <div class="edu-card reveal">
+            <span class="icon-wrap"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-cap"/></svg></span>
+            <div>
+              <h3>B.Sc., Computer Software Engineering</h3>
+              <p>Islamic Azad University (IAU), Iran</p>
+            </div>
+          </div>
+          <div class="edu-card reveal">
+            <span class="icon-wrap"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-cap"/></svg></span>
+            <div>
+              <h3>MBA, one-year program</h3>
+              <p>University of Tehran, Iran</p>
+            </div>
+          </div>
+          <!-- Add certifications here later, for example:
+          <div class="edu-card reveal">
+            <span class="icon-wrap"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-cap"/></svg></span>
+            <div><h3>{{CERTIFICATION_NAME}}</h3><p>{{ISSUER}} · {{YEAR}}</p></div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== References ===== -->
+    <section id="references" aria-labelledby="ref-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="ref-title">References</h2>
+        </header>
+        <div class="ref-card reveal">
+          <blockquote>References are available on request.</blockquote>
+          <p>Get in touch and I'll share contact details for my references.</p>
+          <a class="btn btn-ghost" href="#contact">Request references</a>
+        </div>
+        <!-- To add testimonials later, replace the card above with quotes like:
+        <figure class="ref-card">
+          <blockquote>"{{QUOTE}}"</blockquote>
+          <figcaption><strong>{{NAME}}</strong>, {{ROLE}}, {{ORGANIZATION}}</figcaption>
+        </figure> -->
+      </div>
+    </section>
+
+    <!-- ===== Beyond work ===== -->
+    <section class="section-alt" id="beyond" aria-labelledby="beyond-title">
+      <div class="container beyond-grid">
+        <div class="beyond-photo reveal">
+          <picture>
+            <source type="image/webp" srcset="assets/img/beyond-480.webp 480w, assets/img/beyond-800.webp 800w" sizes="(min-width: 860px) 320px, 90vw">
+            <img src="assets/img/beyond-800.jpg" width="800" height="1000" alt="Pezhman Piramoun smiling in a beige blazer in front of a city skyline" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="beyond-text reveal">
+          <h2 id="beyond-title">Beyond work</h2>
+          <p>Outside of code, I play tennis, listen to all kinds of music and follow my interest in psychology. I enjoy a good TV series, and I'm always up for coffee and a good conversation.</p>
+          <ul class="interests">
+            <li><strong>Tennis</strong></li>
+            <li><strong>Music</strong><span>All genres</span></li>
+            <li><strong>Psychology</strong></li>
+            <li><strong>TV series</strong></li>
+            <li><strong>Coffee &amp; conversation</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <h2 id="contact-title" style="font-size: clamp(1.9rem, 4vw, 2.5rem);">Get in touch</h2>
+          <p style="margin-top: .8rem; color: var(--muted);">Open to conversations about full-time roles and freelance .NET, modernization and data integration work.</p>
+          <ul class="contact-list">
+            <li><a href="mailto:piramoun@gmail.com"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span>piramoun@gmail.com<small>Email</small></span></a></li>
+            <li><a href="https://www.linkedin.com/in/pezhman-piramoun" target="_blank" rel="noopener"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg><span>in/pezhman-piramoun<small>LinkedIn</small></span></a></li>
+            <li><a href="https://github.com/Piramoun" target="_blank" rel="noopener"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>github.com/Piramoun<small>GitHub</small></span></a></li>
+          </ul>
+        </div>
+
+        <!-- Replace {{FORMSPREE_ID}} with your Formspree form ID to receive messages by email.
+             Until then, the form opens the visitor's email app with the message pre-filled. -->
+        <form class="form reveal" id="contact-form" action="https://formspree.io/f/{{FORMSPREE_ID}}" method="POST" novalidate>
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" required></textarea>
+          </div>
+          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Send message <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p style="margin:0">© <span id="year">2026</span> Pezhman Piramoun</p>
+      <ul class="socials">
+        <li><a href="mailto:piramoun@gmail.com" aria-label="Email"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+        <li><a href="https://www.linkedin.com/in/pezhman-piramoun" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+        <li><a href="https://github.com/Piramoun" target="_blank" rel="noopener" aria-label="GitHub"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" class="icon" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
